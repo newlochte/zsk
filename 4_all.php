@@ -31,6 +31,7 @@
                 <th>$row[surname]</th>
                 <th>$row[bday]</th>
                 <th><a href="./internal/delete.php?id=$row[id_user]">Usuń</a></th>
+                <th><a href="./internal/edit.php?id=$row[id_user]">Edytuj</a></th>
             </tr>
             tbl;
         }
